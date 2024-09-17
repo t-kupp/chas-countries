@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --main-beige: #eae7dc;
+  --main-sand: #d8c3a5;
+  --main-grey: #8e8d8a;
+  --main-rose: #e98074;
+  --main-red: #e85a4f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  color: var(--main-red);
+  background-color: var(--main-beige);
+}
+
+.content {
+  width: 700px;
+  margin: auto;
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+  border-bottom: 1px solid var(--main-grey);
+}
+
+.countries-wrapper {
+  display: flex;
+  height: 300px;
+}
+
+.countries-list {
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-right: 1px solid var(--main-grey);
+}
+
+.list-item {
+  width: auto;
+  padding: 3px;
+  text-decoration: none;
+  color: var(--main-red);
+}
+
+.list-item:hover {
+  color: var(--main-beige);
+  background-color: var(--main-red);
+}
+
+.country-iframe {
+  padding: 20px;
+  width: 500px;
+}
+
+.footer {
+  padding: 50px;
+  text-align: center;
+  border-top: 1px solid var(--main-grey);
+}
+
+.country-header,
+.country-paragraph,
+.country-flag {
+  padding: 10px;
+}
+
+.country-flag {
+  border-radius: 16px;
+}
